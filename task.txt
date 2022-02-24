@@ -1,0 +1,14 @@
+You’ve been asked to help a local watering hole, Ye Olde Pub, display their beer menu on their web app. The API to retrieve information about each beer to display is here: https://api.punkapi.com/v2/beers. You’re free to be creative with layout, styling, and content, but there are a few requirements you must satisfy:
+
+The name of each beer must be shown on the menu, along with its ABV and IBU. You may use and/or display any other additional information from the API, as long as those required pieces are there.
+The most popular beers are Electric India, Vice Bier, and Storm. Choose a distinct layout and/or style for these beers to make sure they are more prominently featured and easily distinguishable from the other options. They should also appear together at the top of the menu.
+The rest of the beers should be sorted by ABV, where the beer with the highest ABV (The End of History) appears at the bottom of the menu.
+Tips:
+
+You may import libraries using https://unpkg.com/. If you wanted to use Axios, for example, you’d add a script tag to the HTML pane with the following URL: https://unpkg.com/axios/dist/axios.min.js
+import statements won’t work in your JS code. When calling functions from libraries you’re importing, make sure to include the module prefix (e.g. React.useState)
+You can choose between popular frameworks (React, Angular, Vue) by clicking on the “Packages” link at the top of the left hand pane.
+If you’re using React, you might need to wrap your root component in a fragment in the ReactDOM.render call, e.g. ReactDOM.render(<><MyComponent /></>, document.getElementById('root'));
+Use your browser’s standard Dev Tools for debugging
+You have 60 minutes to complete this challenge.
+Good luck and have fun!
